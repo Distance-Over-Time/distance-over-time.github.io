@@ -7,3 +7,4 @@ gem 'jekyll-sitemap'
 gem "webrick", "~> 1.8"
 gem 'bigdecimal'
 gem "rexml", "~> 3.2"
+gem 'csv'
