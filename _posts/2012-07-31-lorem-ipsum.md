@@ -1,8 +1,16 @@
 ---
 layout: post
-title: Lorem Ipsum
+name: Ryan Davis
+roles: technical artist
 description: Lorem Ipsum is simply dummy text
 summary: Lorem Ipsum is simply dummy text.
+projects: test
+portfolio: https://nodata.tech/
+socials:
+  - platform: Twitter
+    url: 
+  - platform: LinkedIn
+    url: https://www.linkedin.com/in/ryanalexdavis/
 tags: [css]
 ---
 
