@@ -2,9 +2,12 @@
 layout: post
 name: Ryan Davis
 pronouns: she/her
+location: San Diego, CA (USA)
+image: ryan_davis.jpeg
+alt: a woman with glasses holding a dog
 roles: Technical Artist, Art Lead
 description: Lorem Ipsum is simply dummy text
-summary: Lorem Ipsum is simply dummy text.
+summary: Ryan Davis is seeking work as a technical artist in the games industry after contract work in Big Tech. She holds a BA in Art and BS in Computer Science.
 projects: Guiding Light, Inn for the Lost
 portfolio: https://nodata.tech/
 contact:
@@ -15,17 +18,16 @@ socials:
     url: https://twitter.com/dataisgone
   - platform: LinkedIn
     url: https://www.linkedin.com/in/ryanalexdavis/
-  - platform: Twitter
-    url: https://twitter.com/dataisgone
 tags: [css]
 ---
 
-##### _Guiding Light_
-- Test
-- Test
-- Test
+##### _Guiding Light (2023)_
+- Dialogue system development
+- 3D shaders
+- Unreal Blueprint optimization
+- Git management
 
-<br>
-
-##### _Inn for the Lost_
-- Test
+##### _Inn for the Lost (2023)_
+- Art team manager
+- 2D sprite work
+- 3D backgrounds
