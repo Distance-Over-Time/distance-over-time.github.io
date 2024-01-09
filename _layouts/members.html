@@ -2,21 +2,36 @@
 layout: default
 ---
 
+<h1>The Members of DOTS</h1>
+<hr>
+
 <div class="grid">
 
-    {% for post in site.posts %}
-    
-      <article role="article" class="card">
-          <div class="meta">
-        <h2><a href="{{ site.baseurl }}{{ post.url }}">
-          {{ post.title }}
-        </a></h2>
-        <p>{{ post.summary }}</p>
-          <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time> 
+  {% for post in site.posts %}
+    <article role="article" class="card">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <div class="meta">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <h3>{{ post.title }}</h3>
+                <h5>{{ post.roles }}</h5>
+              </div>
+              <div class="col">
+                {% for role in post.role_icons reversed %}
+                  {% assign icon = site.role_icons[role] %}
+                  {% if icon %}
+                  <img src="{{ icon }}" alt="{{ platform }}" class="icon">
+                  {% endif %}
+                {% endfor %}
+              </div>
+            </div>
           </div>
+        </div>
+      </a>
+    </article>
+
     
-      </article>
-      
-    {% endfor %}
-    
+  {% endfor %}
+  
 </div>

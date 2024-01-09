@@ -56,8 +56,21 @@ collections:
     permalink: /projects/:slug
 
 social_media_icons:
-  Twitter: '/assets/images/square-x-twitter.svg'
-  LinkedIn: '/assets/images/linkedin.svg'
+  GitHub: 'assets/images/sm/square-github.svg'
+  Itch.io: 'assets/images/sm/itch-io.svg'
+  LinkedIn: '/assets/images/sm/linkedin.svg'
+  Twitter: '/assets/images/sm/square-x-twitter.svg'
+
+
+role_icons:
+  Accessibility: '/assets/images/roles/access.svg'
+  Artist: '/assets/images/roles/art.svg'
+  Audio: '/assets/images/roles/audio.svg'
+  Designer: '/assets/images/roles/design.svg'
+  Producer: '/assets/images/roles/producer.svg'
+  Programmer: '/assets/images/roles/programmer.svg'
+  QA: '/assets/images/roles/qa.svg'
+  Writer: '/assets/images/roles/writer.svg'
 
 defaults:
   -
