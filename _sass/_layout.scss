@@ -1,7 +1,8 @@
 html {
   box-sizing: border-box;
   margin:0; 
-  padding:0; 
+  padding:0;
+  height: 100%; 
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -9,6 +10,9 @@ html {
 body {
     background-color: #edf2f7;
     color: #495057;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 header, main {
@@ -32,7 +36,10 @@ header, main {
     position: relative;
     margin-left: 1rem;
     margin-right: 1rem;
-    flex: 1 1 10rem
+    flex: 1 1 10rem;
+    a {
+
+    }
 }
 
 @supports (display:grid) {
@@ -141,6 +148,19 @@ header, main {
     transform: scale(1.02);
   }
 }
+
+.card .icon {
+  height: 30px;
+  width: auto;
+  float: right;
+  padding: 0 15px 0;
+  filter: grayscale(100%);
+}
+
+.card .icon:first-child {
+  padding: 0;
+}
+
 ul, ol {
 	padding: 0;
 	list-style-position: inside;
@@ -190,6 +210,11 @@ nav {
 footer {
     margin: 1rem 0;
     text-align: center;
+    flex-shrink: 0;
+}
+
+.content {
+  flex: 1 0 auto;
 }
 
 .social-icon {
@@ -211,4 +236,8 @@ a.social-icon {
 .bio-image {
   height: 200px;
   width: auto;
+}
+
+.card-text {
+  text-decoration: none;
 }

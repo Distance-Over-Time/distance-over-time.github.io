@@ -4,8 +4,43 @@ layout: default
 
 <article class="post" role="article">
 	<div class="meta">
-  <h1>{{ page.title }}</h1>
-  <time class="date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y" }} &middot; {{ page.category }}</time>
+    <h1>{{ page.title }}</h1>
+    <time class="date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y" }} &middot; {{ page.category }}</time>
+  </div>
+  <br>
   <div class="meta">
-  {{ content }}
+    <h4>General Info</h4>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <!-- TOOLS -->
+        <div class="col">
+          <h5>Tools</h5>
+          <ul>
+            {% for tool in page.tools %}
+              <li>{{ tool }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        <!-- CONTRIBUTORS -->
+        <div class="col">
+          <h5>Contributors</h5>
+          <ul>
+            {% for team in page.team %}
+              {% assign member = team.member %}
+              {% assign url = team.url %}
+              {% assign roles = team.roles %}
+              <li>
+                <a href="{{ url }}">{{ member }}</a>: {{ roles }}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <h4>Overview</h4>
+    <hr>
+    {{ content }}
+  </div>
 </article>
