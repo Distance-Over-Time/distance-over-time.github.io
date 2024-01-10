@@ -13,6 +13,30 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
+//     background-size: 40px 40px;
+//     background-image:
+//     linear-gradient(to right, grey 1px, transparent 1px),
+//     linear-gradient(to bottom, grey 1px, transparent 1px);
+//
+  background:
+    linear-gradient(-90deg, rgba(0,0,0,.05) 1px, transparent 1px),
+    linear-gradient(rgba(0,0,0,.05) 1px, transparent 1px), 
+    linear-gradient(-90deg, rgba(0, 0, 0, .04) 1px, transparent 1px),
+    linear-gradient(rgba(0,0,0,.04) 1px, transparent 1px),
+    linear-gradient(transparent 3px, #f2f2f2 3px, #f2f2f2 78px, transparent 78px),
+    linear-gradient(-90deg, #aaa 1px, transparent 1px),
+    linear-gradient(-90deg, transparent 3px, #f2f2f2 3px, #f2f2f2 78px, transparent 78px),
+    linear-gradient(#aaa 1px, transparent 1px),
+    #f2f2f2;
+  background-size:
+    4px 4px,
+    4px 4px,
+    80px 80px,
+    80px 80px,
+    80px 80px,
+    80px 80px,
+    80px 80px,
+    80px 80px;
 }
 
 header, main {
@@ -220,6 +244,10 @@ footer {
 .social-icon {
   height: 50px;
   width: auto;
+  display: inline-block;
+  margin: 0;
+  padding: 0 5px 0;
+  vertical-align: middle;
 }
 
 a.social-icon {
@@ -240,4 +268,17 @@ a.social-icon {
 
 .card-text {
   text-decoration: none;
+}
+
+.game-logo {
+  height: 75%;
+  width: auto;
+  margin: 0;
+  padding-bottom: 1.5vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .game-logo {
+    max-width: 300px;
+  }
 }

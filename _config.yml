@@ -6,7 +6,7 @@ author:
   email: 
   url: 
   avatar: 
-title: Colorie
+title: Distance Over Time
 description: Colorie - Single column blog and portfolio Jekyll theme 
 logo: 
 image: 
@@ -56,8 +56,8 @@ collections:
     permalink: /projects/:slug
 
 social_media_icons:
-  GitHub: 'assets/images/sm/square-github.svg'
-  Itch.io: 'assets/images/sm/itch-io.svg'
+  GitHub: '/assets/images/sm/square-github.svg'
+  Itch.io: '/assets/images/sm/itch-io.svg'
   LinkedIn: '/assets/images/sm/linkedin.svg'
   Twitter: '/assets/images/sm/square-x-twitter.svg'
 

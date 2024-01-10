@@ -1,11 +1,27 @@
 ---
 layout: project
 title: Guiding Light
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-summary: Lorem ipsum dolor sit amet, consectetur.
-category: Visual Novel
-link: https://shleedelie.itch.io/inn-for-the-lost
-tools: Unreal 5
+logo: /assets/images/proj/gl/gl_logo.png
+summary: Narrative-driven adventure about death and the afterlife
+category: Top-down Adventure
+links:
+  - platform: Itch.io
+    url: https://candlesticklibrary.itch.io/guiding-light
+  - platform: GitHub
+    url: https://github.com/Distance-Over-Time/Hereafter
+platforms: [Windows]
+tools: [Unreal 5, Adobe Photoshop]
+team:
+  - member: Ryan Davis
+    url: /_posts/2024-01-01-ryan-davis.md
+    roles: Technical Artist
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+*"I suppose it was foolish of me to think you would be just like all the other souls that showed up here."*
+
+
+*Navigate the ominous realm of the dead in this blind-accessible, narrative-driven game about death and what comes after. Guided by their cheeky gatekeeper, newly-deceased Uri must track down their missing memories in 3 eerie levels of the afterlife.*
+
+***Guiding Light*** is a blind-accessible top-down, narrative-driven adventure game originally produced for [Themed Horror Game Jam #15 - Halloween Edition](https://itch.io/jam/themed-horror-game-jam-15).
+
+Patches are in development for a future submission to [The Rookies](https://www.therookies.co/).
