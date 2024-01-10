@@ -9,19 +9,19 @@ layout: default
 
   {% for post in site.posts %}
     <article role="article" class="card">
-      <a href="{{ site.baseurl }}{{ post.url }}">
+      <a href="{{ site.baseurl }}{{ post.url }}" aria-label="link to {{ post.title }} profile">
         <div class="meta">
-          <div class="container">
+          <section class="container">
             <div class="row">
               <div class="col">
                 <h3>{{ post.title }}</h3>
                 <h5>{{ post.roles }}</h5>
               </div>
-              <div class="col">
+              <div class="col" aria-label="roles">
                 {% for role in post.role_icons reversed %}
                   {% assign icon = site.role_icons[role] %}
                   {% if icon %}
-                  <img src="{{ icon }}" alt="{{ platform }}" class="icon">
+                  <img src="{{ icon }}" alt="{{ role }}" class="icon">
                   {% endif %}
                 {% endfor %}
               </div>
@@ -31,7 +31,6 @@ layout: default
       </a>
     </article>
 
-    
   {% endfor %}
   
 </div>

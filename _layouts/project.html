@@ -3,27 +3,60 @@ layout: default
 ---
 
 <article class="post" role="article">
-	<div class="meta">
-    <h1>{{ page.title }}</h1>
-    <time class="date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y" }} &middot; {{ page.category }}</time>
+	<div class="meta text-center">
+    <img src="{{ page.logo }}" class="game-logo" alt="{{ page.title }} logo">
   </div>
   <br>
   <div class="meta">
-    <h4>General Info</h4>
+    <h4>Game Demo</h4>
     <hr>
+    <section class="container">
+      <a href="{{ page.link }}">
+        <h5>Play <em>{{ page.title }}</em> on Itch.io</h5>
+      </a>
+      <em>Platforms currently available: {{ page.platforms }}</em>
+    </section>
+    
+    <br><br>
+    
+    <!-- OVERVIEW -->
+    <h4>Overview</h4>
+    <hr>
+    <section class="container">
+      <!-- <time class="date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y" }} &middot; {{ page.category }}</time> -->
+      <!-- <br><br> -->
+      {{ content }}
+    </section>
+
+    <br><br>
+
+    <!-- DEVELOPMENT -->
+    <h4>Development Info</h4>
+    <hr>
+    <section class="container">
+      <div class="col">
+        <h5><em>Links</em>:</h5>
+          {% for link in page.links %}
+          {% assign platform = link.platform %}
+          {% assign url = link.url %}
+          {% assign icon = site.social_media_icons[platform] %}
+            <a href="{{ url }}" alt="{{ platform }}">
+            <img src="{{ icon }}" class="social-icon" aria-label="link to {{ page.platform }}" alt="{{ platform }} logo"></a>
+        {% endfor %}
+      </div>
+    </section>
+    <br>
     <div class="container">
       <div class="row">
-        <!-- TOOLS -->
-        <div class="col">
+        <section class="col">
           <h5>Tools</h5>
           <ul>
             {% for tool in page.tools %}
               <li>{{ tool }}</li>
             {% endfor %}
           </ul>
-        </div>
-        <!-- CONTRIBUTORS -->
-        <div class="col">
+        </section>
+        <section class="col">
           <h5>Contributors</h5>
           <ul>
             {% for team in page.team %}
@@ -31,16 +64,12 @@ layout: default
               {% assign url = team.url %}
               {% assign roles = team.roles %}
               <li>
-                <a href="{{ url }}">{{ member }}</a>: {{ roles }}
+                <a href="{{ site.baseurl }}{{ url }}">{{ member }}</a>: {{ roles }}
               </li>
             {% endfor %}
           </ul>
-        </div>
+        </section>
       </div>
     </div>
-    <br><br>
-    <h4>Overview</h4>
-    <hr>
-    {{ content }}
   </div>
 </article>
