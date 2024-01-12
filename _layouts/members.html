@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1>The Members of DOTS</h1>
+<h1 class="page-title">The Members of DOTS</h1>
 <hr>
 
 <div class="grid">
@@ -12,25 +12,25 @@ layout: default
     
     <article role="article" class="card">
 	    <a href="{{ site.baseurl }}{{ post.url }}" aria-label="link to profile of {{ post.name }}">
-      <div class="meta">
-        <section class="container">
-          <div class="row">
-            <div class="col">
-              <h3>{{ post.name }}</h3>
-              <h5>{{ post.roles }}</h5>
-              <h6 style="opacity:0.8"><strong>Pronouns</strong>: {{ post.pronouns }}</h6>
+        <div class="meta">
+          <section class="container">
+            <div class="row">
+              <div class="col">
+                <h3 class="main-font card-name">{{ post.name }}</h3>
+                <h5 class="secondary-font">{{ post.roles }}</h5>
+                <h6 class="secondary-font" style="opacity:0.6"><strong>Pronouns</strong>: {{ post.pronouns }}</h6>
+              </div>
+              <div class="col" aria-label="roles">
+                {% for role in post.role_icons reversed %}
+                  {% assign icon = site.role_icons[role] %}
+                  {% if icon %}
+                  <img src="{{ icon }}" alt="{{ role }}" class="icon">
+                  {% endif %}
+                {% endfor %}
+              </div>
             </div>
-            <div class="col" aria-label="roles">
-              {% for role in post.role_icons reversed %}
-                {% assign icon = site.role_icons[role] %}
-                {% if icon %}
-                <img src="{{ icon }}" alt="{{ role }}" class="icon">
-                {% endif %}
-              {% endfor %}
-            </div>
-          </div>
-        </section>
-      </div>
+          </section>
+        </div>
       </a>
     </article>  
     

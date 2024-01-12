@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1>See Our Work</h1>
+<h1 class="page-title">See Our Work</h1>
 <hr>
 
 <div class="grid">
@@ -12,11 +12,9 @@ layout: default
     <article role="article" class="card">
 	    <a class="card-text" href="{{ site.baseurl }}{{ project.url }}">
       <div class="meta">
-        <h2>
-          {{ project.title }}
-        </h2>
-        <p>{{ project.summary }}</p>
-          <time class="date" datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date: "%Y" }} &middot; {{ project.category }}</time>
+        <h1 class="main-font card-project-name">{{ project.title }}</h1>
+        <p class="secondary-font">{{ project.summary }}</p>
+        <time class="date secondary-font" datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date: "%Y" }} &middot; {{ project.category }}</time>
       </div>
       </a>
     </article>
