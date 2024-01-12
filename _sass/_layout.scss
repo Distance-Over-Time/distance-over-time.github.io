@@ -28,6 +28,7 @@ body {
     80px 80px,
     80px 80px,
     80px 80px;
+  background-attachment: fixed;
 }
 
 header, main {
@@ -233,17 +234,21 @@ footer {
 }
 
 .social-icon {
+  height: 40px;
+  width: auto;
+  display: inline-block;
+  margin: 0;
+  padding: 5px 10px 0;
+  vertical-align: middle;
+}
+
+.role-icon {
   height: 50px;
   width: auto;
   display: inline-block;
   margin: 0;
   padding: 0 5px 0;
   vertical-align: middle;
-}
-
-a.social-icon {
-  text-decoration: none !important;
-  color: white;
 }
 
 .center-title {
@@ -275,5 +280,10 @@ a.social-icon {
 @media only screen and (max-width: 600px) {
   .game-logo {
     max-width: 300px;
+  }
+
+  .social-icon {
+    height: 65px;
+    padding: 0 15px 20px;
   }
 }

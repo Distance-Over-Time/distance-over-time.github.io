@@ -56,12 +56,13 @@ collections:
     permalink: /projects/:slug
 
 social_media_icons:
+  Bluesky: '/assets/images/sm/bluesky.svg'
   GitHub: '/assets/images/sm/github.svg'
   Instagram: '/assets/images/sm/instagram.svg'
   Itch.io: '/assets/images/sm/itch-io.svg'
   LinkedIn: '/assets/images/sm/linkedin.svg'
   Twitch: '/assets/images/sm/twitch.svg'
-  Twitter: '/assets/images/sm/x-twitter.svg'
+  Twitter: '/assets/images/sm/twitter-x.svg'
 
 
 role_icons:
