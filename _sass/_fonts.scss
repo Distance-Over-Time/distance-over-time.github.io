@@ -1,5 +1,47 @@
-@import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', 'Helvetica', sans-serif; font-display: swap; }
-@supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', 'Helvetica', sans-serif; }
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+html { font-family: 'Montserrat'; } /* Why is this not working lol */
+
+h5, h6 {
+  font-family: 'Montserrat';
 }
+
+.page-title {
+  font-family: 'Genos';
+  font-size: 300%;
+  text-transform: uppercase;
+  color: #000000;
+  text-shadow: 1px 1px 0px #FFFFFF,
+               1px 2px 0px #FFFFFF,
+               1px 3px 0px #FFFFFF,
+               1px 4px 0px #FFFFFF
+}
+.main-font {
+  font-family: 'Genos';
+  color: black;
+}
+
+.card-name {
+  font-size: 2rem;
+}
+
+.profile-name {
+  font-size: 3rem;
+}
+
+.card-project-name {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.profile-section-title {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.secondary-font {
+  font-family: 'Montserrat';
+  color: black;
+}
+
