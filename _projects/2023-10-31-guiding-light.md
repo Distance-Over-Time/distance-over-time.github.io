@@ -13,8 +13,20 @@ platforms: [Windows]
 tools: [Unreal 5, Adobe Photoshop]
 team:
   - member: Ryan Davis
-    url: /_posts/2024-01-01-ryan-davis.md
-    roles: Technical Artist
+    url: /ryan-davis
+    roles: Technical Artist, Programmer
+  - member: Sai
+    url: /sai
+    roles: Composer, Sound Designer, Narrative
+  - member: Kelly Carino
+    url: /mikaela-carino
+    roles: Lead Programmer
+  - member: Ashley Phipps
+    url: /ashley-phipps
+    roles: Producer
+  - member: Taylor McElroy
+    url: /tayloor-mcelroy
+    roles: Lead Producer
 ---
 
 *"I suppose it was foolish of me to think you would be just like all the other souls that showed up here."*

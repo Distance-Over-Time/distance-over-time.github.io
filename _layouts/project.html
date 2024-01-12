@@ -59,7 +59,8 @@ layout: default
         <section class="col">
           <h5>Contributors</h5>
           <ul>
-            {% for team in page.team %}
+            {% assign sorted = page.team | sort: 'member' %}
+            {% for team in sorted %}
               {% assign member = team.member %}
               {% assign url = team.url %}
               {% assign roles = team.roles %}

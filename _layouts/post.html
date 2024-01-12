@@ -9,8 +9,8 @@ layout: default
         <!-- TEXT -->
         <section class="col center-title">
           <h1>{{ page.name }}</h1>
-          <h3>{{ page.roles }}</h3>
-          <h4><span style="opacity:.5">{{ page.pronouns }} | {{ page.location }}</span></h4>
+          <h2 class="profile-info">{{ page.roles }}</h2>
+          <h3 class="profile-info"><span style="opacity:.5">{{ page.pronouns }} | {{ page.location }}</span></h3>
         </section>
         <!-- ROW -->
         <section class="col text-center" aria-label="team member profile image">
@@ -42,7 +42,11 @@ layout: default
     <h4>Portfolio</h4>
     <hr>
     <section class="container">
-      <h6><a href="{{ page.portfolio }}" aria-label="link to portfolio of {{ page.name }}">{{ page.portfolio }}</a></h6>
+      {% if page.portfolio == 'under construction' %}
+        <h6><em>Under Construction</em></h6>
+      {% else %}
+        <h6><a href="{{ page.portfolio }}" aria-label="link to portfolio of {{ page.name }}">The Portfolio of {{ page.name }}</a></h6>
+      {% endif %}
     </section>
 
     <br><br>
@@ -52,10 +56,11 @@ layout: default
     <section class="container">
       <ul>
         {% for contact in page.contact %}
-        {% assign type = contact.type %}
-        {% assign direct = contact.direct %}
-      
-        <li><strong>{{ type }}</strong>: {{ direct }}</li>
+          {% if contact.type == 'Email' %}
+            <li><strong>{{ contact.type }}</strong>: <a href="mailto:{{ contact.direct }}">{{ contact.direct }}</a></li>
+          {% else %}
+            <li><strong>{{ contact.type }}</strong>: <a href="">{{ contact.direct }}</a></li>
+          {% endif %}
         {% endfor %}
       </ul>
     </section>
