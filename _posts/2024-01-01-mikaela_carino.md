@@ -26,7 +26,9 @@ socials:
 - Meticulously navigated through each data table for all 18 scenes to place each character in specific coordinates on the screen, add in UI, and background art, along with the narrative, sound effects, and music created by the DOTs team
 - Built and packaged the project during various milestones to test out the game during these stages
 
----
+<hr class="secondary">
+
+
 ##### _Guiding Light (2023)_
 ###### *Current Work*
 - C++ and Blueprint programming for the below (mainly C++)

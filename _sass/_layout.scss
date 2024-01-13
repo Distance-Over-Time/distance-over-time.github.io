@@ -180,7 +180,7 @@ header, main {
 
 ul, ol {
 	padding: 0;
-	list-style-position: inside;
+  list-style: square outside;
 }
 
 table {
@@ -253,6 +253,13 @@ footer {
   vertical-align: middle;
 }
 
+.footer-icon {
+  height: 25px;
+  width: auto;
+  margin: 0;
+  padding: 0 5px 0;
+}
+
 .center-title {
   margin: auto;
   width: 50%;
@@ -278,6 +285,48 @@ footer {
 .profile-info {
     font-size: 1.35rem;
 }
+
+/* For hr on project/member pages */
+/* Credit: https://codepen.io/oaviv/pen/GqXwYp */
+.liner {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+}
+.liner:after {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  background: black;
+  min-width: 20px;
+  margin: auto;
+}
+.liner:after {
+  margin-left: 20px;
+}
+
+/* Secondary hr for dividing within the same content section */
+hr.secondary {
+  border: none;
+  height: 1px;
+  background-color: black;
+}
+hr.secondary::after {
+  content: '△';
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: 50% 50%;
+  padding: 1rem;
+  background-color: white;
+}
+
+/* To visually hide elements but keep the semantics for screen readers */
+.semantic {
+  display: none;
+}
+
 
 @media only screen and (max-width: 600px) {
   .game-logo {

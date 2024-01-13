@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Genos:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap');
 
-html { font-family: 'Montserrat'; } /* Why is this not working lol */
+html { /* Why is this not working lol */
+  font-family: 'Montserrat';
+  font-weight: 200;
+}
 
 h5, h6 {
   font-family: 'Montserrat';
@@ -42,6 +45,12 @@ h5, h6 {
 
 .secondary-font {
   font-family: 'Montserrat';
+  font-weight: 500;
   color: black;
+}
+
+.base-text {
+  font-family: 'Montserrat';
+  font-weight: 400;
 }
 
