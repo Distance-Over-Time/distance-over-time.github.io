@@ -40,10 +40,12 @@ layout: default
     <br><br>
 
     <h4 class="main-font profile-section-title">Portfolio</h4>
-    <hr>
+    <hr class="subtitle">
     <section class="container secondary-font">
       {% if page.portfolio == 'under construction' %}
         <h6><em>Under Construction</em></h6>
+      {% elsif page.portfolio == 'n/a' %}
+        <h6><em>N/A</em></h6>
       {% else %}
         <h6><a href="{{ page.portfolio }}" aria-label="link to portfolio of {{ page.name }}">The Portfolio of {{ page.name }}</a></h6>
       {% endif %}
@@ -54,7 +56,7 @@ layout: default
     <h4 class="main-font profile-section-title">Contact</h4>
     <hr>
     <section class="container secondary-font">
-      <ul>
+      <ul class="bio">
         {% for contact in page.contact %}
           {% if contact.type == 'Email' %}
             <li><strong>{{ contact.type }}</strong>: <a href="mailto:{{ contact.direct }}">{{ contact.direct }}</a></li>

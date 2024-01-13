@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Genos:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
 
 html { /* Why is this not working lol */
   font-family: 'Montserrat';
-  font-weight: 200;
+  font-weight: 500;
 }
 
 h5, h6 {
@@ -15,10 +15,8 @@ h5, h6 {
   font-size: 300%;
   text-transform: uppercase;
   color: #000000;
-  text-shadow: 1px 1px 0px #FFFFFF,
-               1px 2px 0px #FFFFFF,
-               1px 3px 0px #FFFFFF,
-               1px 4px 0px #FFFFFF
+  text-shadow: 1px 1px 0px #0397D5,
+               1px 2px 0px #0397D5
 }
 .main-font {
   font-family: 'Genos';
@@ -39,6 +37,13 @@ h5, h6 {
 }
 
 .profile-section-title {
+  font-size: 1.75rem;
+  text-transform: uppercase;
+}
+
+.profile-subsection-title {
+  font-family: 'Genos';
+  font-weight: 300;
   font-size: 1.5rem;
   text-transform: uppercase;
 }

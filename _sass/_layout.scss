@@ -7,9 +7,9 @@ html {
   box-sizing: inherit;
 }
 body {
-    background-color: #edf2f7;
-    color: #495057;
-    background:
+  background-color: #edf2f7;
+  color: #495057;
+  background:
       linear-gradient(-90deg, rgba(0,0,0,.05) 1px, transparent 1px),
       linear-gradient(rgba(0,0,0,.05) 1px, transparent 1px), 
       linear-gradient(-90deg, rgba(0, 0, 0, .04) 1px, transparent 1px),
@@ -54,9 +54,7 @@ header, main {
     margin-left: 1rem;
     margin-right: 1rem;
     flex: 1 1 10rem;
-    a {
-
-    }
+    
 }
 
 @supports (display:grid) {
@@ -65,54 +63,54 @@ header, main {
     }
 }
 .card:nth-child(1n) {
-  background: #96d0c3;
+  background: #03ccd5;
 }
 .card:nth-child(2n) {
-  background: #ef7d4d;
+  background: #03bad5;
 }
 .card:nth-child(3n) {
-  background: #fbcfb9;
+  background: #03a9d5;
 }
 .card:nth-child(4n) {
-  background: #fac14e;
+  background: #0397d5;
 }
 
 .card:nth-child(5n + 1) {
-  background: #ef7d4d;
+  background: #03ccd5;
 }
 
 .card:nth-child(6n + 1) {
-  background: #ef7d4d;
+  background: #03bad5;
 }
 
 .card:nth-child(7n +1) {
-  background: #fac14e;
+  background: #03a9d5;
 }
 
 
 .card:nth-child(4n + 1) {
-  background: #fac14e;
+  background: #03ccd5;
 }
 .card:nth-child(4n + 2) {
-  background: #fbcfb9;
+  background: #03bad5;
 }
 .card:nth-child(4n + 3) {
-  background: #ef7d4d;
+  background: #03a9d5;
 }
 .card:nth-child(4n + 4) {
-  background: #96d0c3;
+  background: #0397d5;
 }
 
 .card {
   //min-height: 100%;
   background: white;
-  -webkit-box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
-  box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
-  //display: flex;
-  //flex-direction: column;
+  box-shadow: 0.25rem 0.25rem black;
+
+  display: flex;
+  flex-direction: column;
   text-decoration: none;
-  //position: relative;
-  //top: 0;
+  position: relative;
+  top: 0;
   color: inherit;
 }
 
@@ -179,7 +177,7 @@ header, main {
 }
 
 ul, ol {
-	padding: 0;
+	padding-left: 1.5rem;
   list-style: square outside;
 }
 
@@ -269,6 +267,8 @@ footer {
 .bio-image {
   height: 200px;
   width: auto;
+  box-shadow: 10px 10px black,
+              // -2px -2px #0397D5;
 }
 
 .card-text {
@@ -310,6 +310,14 @@ hr.secondary {
   border: none;
   height: 1px;
   background-color: black;
+  background: linear-gradient(
+                to right, 
+                 white 25%, 
+                 black 25% 50%, 
+                 black 50% 75%, 
+                 white 75%
+  );
+  margin: 2rem 0;
 }
 hr.secondary::after {
   content: '△';
@@ -322,11 +330,15 @@ hr.secondary::after {
   background-color: white;
 }
 
+hr {
+  margin-top: 0;
+  height: 3px;
+}
+
 /* To visually hide elements but keep the semantics for screen readers */
 .semantic {
   display: none;
 }
-
 
 @media only screen and (max-width: 600px) {
   .game-logo {

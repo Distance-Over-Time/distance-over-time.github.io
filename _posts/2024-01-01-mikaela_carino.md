@@ -28,7 +28,6 @@ socials:
 
 <hr class="secondary">
 
-
 ##### _Guiding Light (2023)_
 ###### *Current Work*
 - C++ and Blueprint programming for the below (mainly C++)
