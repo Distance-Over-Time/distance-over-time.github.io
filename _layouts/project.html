@@ -4,7 +4,7 @@ layout: default
 
 <article class="post" role="article">
 	<div class="meta text-center">
-    <img src="{{ page.logo }}" class="game-logo" alt="{{ page.title }} logo">
+    <img src="{{ page.logo }}" class="game-logo img-tint" alt="{{ page.title }} logo">
   </div>
   <br>
   <div class="meta">
@@ -12,7 +12,7 @@ layout: default
     <hr>
     <section class="container base-text">
       <a href="{{ page.link }}">
-        <h5>Play <em>{{ page.title }}</em> on Itch.io</h5>
+        <h5 class="demo-link">Play <em>{{ page.title }}</em> on Itch.io</h5>
       </a>
       <em>Platforms currently available: {{ page.platforms }}</em>
     </section>
@@ -22,7 +22,7 @@ layout: default
     <!-- OVERVIEW -->
     <h4 class="main-font profile-section-title">Overview</h4>
     <hr>
-    <section class="container base-text">
+    <section class="container base-text general">
       <time class="date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y" }} &middot; {{ page.category }}</time>
       <br><br>
       {{ content }}
@@ -49,15 +49,15 @@ layout: default
     <div class="container base-text">
       <div class="row">
         <section class="col">
-          <h5 class="profile-subsection-title">Tools</h5>
+          <h5 class="profile-subsection-title"><em>Tools</em></h5>
           <ul>
             {% for tool in page.tools %}
               <li>{{ tool }}</li>
             {% endfor %}
           </ul>
         </section>
-        <section class="col">
-          <h5 class="profile-subsection-title">Contributors</h5>
+        <section class="col general">
+          <h5 class="profile-subsection-title"><em>Contributors</em></h5>
           <ul>
             {% assign sorted = page.team | sort: 'member' %}
             {% for team in sorted %}

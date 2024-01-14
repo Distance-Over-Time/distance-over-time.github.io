@@ -29,7 +29,7 @@ socials:
 - 2D sprite work
 - 3D backgrounds
 
----
+<hr class="secondary">
 
 ##### _Guiding Light (2023)_
 - Dialogue system development

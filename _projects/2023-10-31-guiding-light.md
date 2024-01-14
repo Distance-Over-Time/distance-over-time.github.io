@@ -25,8 +25,11 @@ team:
     url: /ashley-phipps
     roles: Producer
   - member: Taylor McElroy
-    url: /tayloor-mcelroy
+    url: /taylor-mcelroy
     roles: Lead Producer
+  - member: Sophie Galley
+    url: /sophie-galley
+    roles: Producer, Writer
 ---
 
 *"I suppose it was foolish of me to think you would be just like all the other souls that showed up here."*

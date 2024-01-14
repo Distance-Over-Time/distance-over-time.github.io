@@ -46,6 +46,7 @@ h5, h6 {
   font-weight: 300;
   font-size: 1.5rem;
   text-transform: uppercase;
+  color: black;
 }
 
 .secondary-font {
@@ -58,4 +59,15 @@ h5, h6 {
   font-family: 'Montserrat';
   font-weight: 400;
 }
+
+.demo-link {
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.demo-link:hover {
+  color: #0397D5;
+  text-decoration: underline;
+  text-decoration-color:#0397D5;
+}
+
 

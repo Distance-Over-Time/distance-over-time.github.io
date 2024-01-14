@@ -13,7 +13,7 @@ layout: default
           <h3 class="profile-info secondary-font"><span style="opacity:.5">{{ page.pronouns }} | {{ page.location }}</span></h3>
         </section>
         <!-- ROW -->
-        <section class="col text-center" aria-label="team member profile image">
+        <section class="col" aria-label="team member profile image">
           <img class="bio-image"
                src="assets/images/bio/{{ page.image }}"
                alt="{{ page.alt }}">
@@ -23,7 +23,7 @@ layout: default
 
     <br><br>
 
-    <h4 class="main-font profile-section-title">Summary</h4>
+    <h4 class="main-font profile-section-title">About</h4>
     <hr>
     <section class="container base-text">
       {{ page.summary }}
@@ -41,7 +41,7 @@ layout: default
 
     <h4 class="main-font profile-section-title">Portfolio</h4>
     <hr class="subtitle">
-    <section class="container secondary-font">
+    <section class="container secondary-font general">
       {% if page.portfolio == 'under construction' %}
         <h6><em>Under Construction</em></h6>
       {% elsif page.portfolio == 'n/a' %}
@@ -55,7 +55,7 @@ layout: default
 
     <h4 class="main-font profile-section-title">Contact</h4>
     <hr>
-    <section class="container secondary-font">
+    <section class="container secondary-font general">
       <ul class="bio">
         {% for contact in page.contact %}
           {% if contact.type == 'Email' %}
@@ -78,7 +78,7 @@ layout: default
         {% assign icon = site.social_media_icons[platform] %}
   
         {% if icon %}
-          <a href="{{ url }}" aria-label="link to {{ platform }}"><img src="{{ icon }}" alt="{{ platform }}" class="social-icon"></a>
+          <a href="{{ url }}" aria-label="link to {{ platform }}"><img src="{{ icon }}" alt="{{ platform }}" class="social-icon no-hover"></a>
         {% endif %}
       {% endfor %}  
     </section>
