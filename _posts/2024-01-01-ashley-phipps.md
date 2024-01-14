@@ -28,11 +28,13 @@ socials:
     url: https://www.twitch.tv/shleedelie
 ---
 ##### _Inn for the Lost (2023)_
+Links: [DOTs Page](/projects/inn-lost) &middot; [Itch.io](https://shleedelie.itch.io/inn-for-the-lost)
 - Lead Producer
 
----
+<hr class="secondary">
 
 ##### _Guiding Light (2023)_
+Links: [DOTs Page](/projects/guiding-light) &middot; [Itch.io](https://candlesticklibrary.itch.io/guiding-light)
 - Producer
 - Narrative Editor
 - UI Design

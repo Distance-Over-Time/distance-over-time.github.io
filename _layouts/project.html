@@ -4,15 +4,20 @@ layout: default
 
 <article class="post" role="article">
 	<div class="meta text-center">
-    <img src="{{ page.logo }}" class="game-logo img-tint" alt="{{ page.title }} logo">
+    <img src="{{ page.logo }}" class="game-logo" alt="{{ page.title }} logo">
   </div>
   <br>
   <div class="meta">
-    <h4 class="main-font profile-section-title">Game Demo</h4>
+    <h4 class="main-font profile-section-title">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M0 0h1v15h15v1H0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5"/>
+      </svg>
+      Game Demo
+    </h4>
     <hr>
     <section class="container base-text">
-      <a href="{{ page.link }}">
-        <h5 class="demo-link">Play <em>{{ page.title }}</em> on Itch.io</h5>
+      <a href="{{ page.demo }}">
+        <h5 class="demo-link"><i class="bi bi-joystick" style="padding-right:10px"></i>Play <em>{{ page.title }}</em> on Itch.io</h5>
       </a>
       <em>Platforms currently available: {{ page.platforms }}</em>
     </section>
@@ -20,7 +25,12 @@ layout: default
     <br><br>
     
     <!-- OVERVIEW -->
-    <h4 class="main-font profile-section-title">Overview</h4>
+    <h4 class="main-font profile-section-title">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M0 0h1v15h15v1H0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5"/>
+      </svg>
+      Overview
+    </h4>
     <hr>
     <section class="container base-text general">
       <time class="date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y" }} &middot; {{ page.category }}</time>
@@ -31,7 +41,12 @@ layout: default
     <br><br>
 
     <!-- DEVELOPMENT -->
-    <h4 class="main-font profile-section-title">Development</h4>
+    <h4 class="main-font profile-section-title">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M0 0h1v15h15v1H0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5"/>
+      </svg>
+      Development
+    </h4>
     <hr>
     <section class="container base-text">
       <div class="col">

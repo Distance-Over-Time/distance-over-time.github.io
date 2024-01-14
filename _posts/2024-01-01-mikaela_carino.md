@@ -19,6 +19,7 @@ socials:
 ---
 
 ##### _Inn for the Lost (2023)_
+Links: [DOTs Page](/projects/inn-lost) &middot; [Itch.io](https://shleedelie.itch.io/inn-for-the-lost)
 - C++ and Blueprint programming for the below (mainly Blueprints)
 - Heavily customized the “Visual Novel Framework” project in Unreal Engine 5.1
 - Implement system to toggle text-to-speech and save this setting on a per-user basis
@@ -29,6 +30,7 @@ socials:
 <hr class="secondary">
 
 ##### _Guiding Light (2023)_
+Links: [DOTs Page](/projects/guiding-light) &middot; [Itch.io](https://candlesticklibrary.itch.io/guiding-light)
 ###### *Current Work*
 - C++ and Blueprint programming for the below (mainly C++)
 - Character movement/inputs

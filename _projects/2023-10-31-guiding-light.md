@@ -4,6 +4,7 @@ title: Guiding Light
 logo: /assets/images/proj/gl/gl_logo.png
 summary: Narrative-driven adventure about death and the afterlife
 category: Top-down Adventure
+demo: https://candlesticklibrary.itch.io/guiding-light
 links:
   - platform: Itch.io
     url: https://candlesticklibrary.itch.io/guiding-light

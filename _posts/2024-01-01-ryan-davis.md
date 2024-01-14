@@ -25,6 +25,7 @@ socials:
 ---
 
 ##### _Inn for the Lost (2023)_
+Links: [DOTs Page](/projects/inn-lost) &middot; [Itch.io](https://shleedelie.itch.io/inn-for-the-lost)
 - Art team manager
 - 2D sprite work
 - 3D backgrounds
