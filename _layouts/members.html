@@ -2,20 +2,23 @@
 layout: default
 ---
 
-<h1>The Members of DOTS</h1>
+<h1 class="page-title">The Members of DOTS</h1>
 <hr>
 
 <div class="grid">
-
-  {% for post in site.posts %}
+  
+  {% assign sort_posts = site.posts | sort: 'title' %}
+  {% for post in sort_posts %}
+    
     <article role="article" class="card">
-      <a href="{{ site.baseurl }}{{ post.url }}" aria-label="link to {{ post.title }} profile">
+	    <a href="{{ site.baseurl }}{{ post.url }}" aria-label="link to profile of {{ post.name }}">
         <div class="meta">
           <section class="container">
             <div class="row">
               <div class="col">
-                <h3>{{ post.title }}</h3>
-                <h5>{{ post.roles }}</h5>
+                <h3 class="main-font card-name">{{ post.name }}</h3>
+                <h5 class="secondary-font">{{ post.roles }}</h5>
+                <h6 class="secondary-font" style="opacity:0.6"><strong>Pronouns</strong>: {{ post.pronouns }}</h6>
               </div>
               <div class="col" aria-label="roles">
                 {% for role in post.role_icons reversed %}
@@ -26,11 +29,11 @@ layout: default
                 {% endfor %}
               </div>
             </div>
-          </div>
+          </section>
         </div>
       </a>
-    </article>
-
+    </article>  
+    
   {% endfor %}
   
 </div>

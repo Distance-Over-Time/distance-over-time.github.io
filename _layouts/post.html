@@ -8,12 +8,12 @@ layout: default
       <div class="row">
         <!-- TEXT -->
         <section class="col center-title">
-          <h1>{{ page.name }}</h1>
-          <h3>{{ page.roles }}</h3>
-          <h4><span style="opacity:.5">{{ page.pronouns }} | {{ page.location }}</span></h4>
+          <h1 class="main-font profile-name">{{ page.name }}</h1>
+          <h2 class="profile-info secondary-font">{{ page.roles }}</h2>
+          <h3 class="profile-info secondary-font"><span style="opacity:.5">{{ page.pronouns }} | {{ page.location }}</span></h3>
         </section>
         <!-- ROW -->
-        <section class="col text-center" aria-label="team member profile image">
+        <section class="col" aria-label="team member profile image">
           <img class="bio-image"
                src="assets/images/bio/{{ page.image }}"
                alt="{{ page.alt }}">
@@ -23,46 +23,53 @@ layout: default
 
     <br><br>
 
-    <h4>Summary</h4>
+    <h4 class="main-font profile-section-title">About</h4>
     <hr>
-    <section class="container">
+    <section class="container base-text">
       {{ page.summary }}
     </section>
 
     <br><br>
 
-    <h4>Contributions</h4>
+    <h4 class="main-font profile-section-title">Contributions</h4>
     <hr>
-    <section class="container">
+    <section class="container base-text">
       {{ content }}
     </section>
     
     <br><br>
 
-    <h4>Portfolio</h4>
-    <hr>
-    <section class="container">
-      <h6><a href="{{ page.portfolio }}" aria-label="link to portfolio of {{ page.name }}">{{ page.portfolio }}</a></h6>
+    <h4 class="main-font profile-section-title">Portfolio</h4>
+    <hr class="subtitle">
+    <section class="container secondary-font general">
+      {% if page.portfolio == 'under construction' %}
+        <h6><em>Under Construction</em></h6>
+      {% elsif page.portfolio == 'n/a' %}
+        <h6><em>N/A</em></h6>
+      {% else %}
+        <h6><a href="{{ page.portfolio }}" aria-label="link to portfolio of {{ page.name }}">The Portfolio of {{ page.name }}</a></h6>
+      {% endif %}
     </section>
 
     <br><br>
 
-    <h4>Contact</h4>
+    <h4 class="main-font profile-section-title">Contact</h4>
     <hr>
-    <section class="container">
-      <ul>
+    <section class="container secondary-font general">
+      <ul class="bio">
         {% for contact in page.contact %}
-        {% assign type = contact.type %}
-        {% assign direct = contact.direct %}
-      
-        <li><strong>{{ type }}</strong>: {{ direct }}</li>
+          {% if contact.type == 'Email' %}
+            <li><strong>{{ contact.type }}</strong>: <a href="mailto:{{ contact.direct }}">{{ contact.direct }}</a></li>
+          {% else %}
+            <li><strong>{{ contact.type }}</strong>: <a href="">{{ contact.direct }}</a></li>
+          {% endif %}
         {% endfor %}
       </ul>
     </section>
 
     <br><br>
 
-    <h4>Social Media</h4>
+    <h4 class="main-font profile-section-title">Social Media</h4>
     <hr>
     <section class="container">
       {% for social in page.socials %}
@@ -71,7 +78,7 @@ layout: default
         {% assign icon = site.social_media_icons[platform] %}
   
         {% if icon %}
-          <a href="{{ url }}" aria-label="link to {{ platform }}"><img src="{{ icon }}" alt="{{ platform }}" class="social-icon"></a>
+          <a href="{{ url }}" aria-label="link to {{ platform }}"><img src="{{ icon }}" alt="{{ platform }}" class="social-icon no-hover"></a>
         {% endif %}
       {% endfor %}  
     </section>
