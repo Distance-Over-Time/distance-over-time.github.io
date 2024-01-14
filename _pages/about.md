@@ -2,7 +2,6 @@
 layout: page
 title: About
 ---
-
-## We are Distance Over Time Studios 
+<h1 class="page-title">Distance Over Time</h1>
 
 sophie's text here

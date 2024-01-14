@@ -25,6 +25,7 @@ socials:
 ---
 
 ##### _Guiding Light (2023)_
+Links: [DOTs Page](/projects/guiding-light) &middot; [Itch.io](https://candlesticklibrary.itch.io/guiding-light)
 - Managed and organized accessible schedule and kanban board with Taylor McElroy and Ashley Phipps to maintain and fulfill milestones and visualize production status
 - Spearheaded and ran 1:1 playtests with the aid of Ross Minor, Ashley Phipps, and Taylor McElroy
 - Created Google Forms and Google sheets to track potential playtester information for current and future playtests
