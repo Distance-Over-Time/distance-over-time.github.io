@@ -1,27 +1,15 @@
 site: Distance Over Time
 url: 
-author: Colorie
+author: Distance Over Time Studios
 author:
-  name: Colorie
+  name: Distance Over Time Studios
   email: 
   url: 
   avatar: 
 title: Distance Over Time Studio
 description: Distance Over Time Studios - Career switchers making accessible games
 logo: 
-image: 
-twitter: ronaldsvilcins  
-twitter:
-  username: ronaldsvilcins
-  creator: ronaldsvilcins
-  card: summary
-social:
-  name: Ronalds Vilcins
-  links:
-    - https://twitter.com/#
-    - https://www.dribbble.com/#
-    - https://github.com/#
-    - https://codepen.io/#
+image:
   
 permalink: pretty
 
@@ -61,15 +49,19 @@ social_media_icons:
   Instagram: '/assets/images/sm/instagram.svg'
   Itch.io: '/assets/images/sm/itch-io.svg'
   LinkedIn: '/assets/images/sm/linkedin.svg'
+  Mastodon: '/assets/images/sm/mastodon.svg'
+  TikTok: '/assets/images/sm/tiktok.svg'
   Twitch: '/assets/images/sm/twitch.svg'
   Twitter: '/assets/images/sm/twitter-x.svg'
+  YouTube: '/assets/images/sm/youtube.svg'
 
 
 role_icons:
   Accessibility: '/assets/images/roles/access.svg'
   Artist: '/assets/images/roles/art.svg'
   Audio: '/assets/images/roles/audio.svg'
-  Designer: '/assets/images/roles/design.svg'
+  Game Designer: '/assets/images/roles/design.svg'
+  UX/UI Designer: '/assets/images/roles/design2.svg'
   Producer: '/assets/images/roles/producer.svg'
   Programmer: '/assets/images/roles/programmer.svg'
   QA: '/assets/images/roles/qa.svg'
