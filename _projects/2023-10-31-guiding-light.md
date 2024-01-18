@@ -18,7 +18,7 @@ team:
     roles: Technical Artist, Programmer
   - member: Sai
     url: /sai
-    roles: Composer, Sound Designer, Narrative
+    roles: Audio Lead, Narrative
   - member: Kelly Carino
     url: /mikaela-carino
     roles: Lead Programmer
@@ -30,7 +30,13 @@ team:
     roles: Lead Producer
   - member: Sophie Galley
     url: /sophie-galley
-    roles: Producer, Writer
+    roles: Producer, Narrative
+  - member: Jacob Wheeler
+    url: /jacob-wheeler
+    roles: Lead Level Designer, Accessibility Design
+  - member: Ross Minor
+    url: /ross-minor
+    roles: Accessibility Lead, QA
 ---
 
 *"I suppose it was foolish of me to think you would be just like all the other souls that showed up here."*
