@@ -1,6 +1,6 @@
 # Distance Over Time Studios
 
-![Logo](dots_logo.png)
+![Logo](assets/images/dots_logo.png)
 
 ## Credits
 
