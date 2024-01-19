@@ -37,6 +37,9 @@ team:
   - member: Ross Minor
     url: /ross-minor
     roles: Accessibility Lead, QA
+  - member: Monkey KG
+    url: /monkey-kg
+    roles: Character Artist, Narrative
 ---
 
 *"I suppose it was foolish of me to think you would be just like all the other souls that showed up here."*
