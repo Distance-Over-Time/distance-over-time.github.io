@@ -3,7 +3,7 @@ layout: post
 name: Taylor McElroy
 pronouns: she/her
 location: Eugene, OR
-image: taylor_mcelroy.jpg
+image: taylor_mcelroy.png
 alt: Headshot of Taylor McElroy. She is standing in front of a wooden fence surrounded by tall plants.
 roles: Lead Producer
 role_icons: [Producer]
