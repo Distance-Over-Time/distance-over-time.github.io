@@ -4,7 +4,7 @@ name: Ross Minor
 pronouns: he/him
 location: Los Angeles, CA
 image: ross_minor.jpg
-alt: CHANGE THIS ALT TEXT
+alt: Headshot of Ross Minor in front of a white background.
 roles: Accessibility Consultant
 role_icons: [Accessibility]
 summary: Ross Minor is a digital accessibility consultant specializing in game accessibility who has been working in the industry for over 4 years. As an accessibility consultant, he has been responsible for collaborating with game development studios such as Ubisoft, Interior Night, and EA Games on accessibility through workshops, player studies, and one-on-one consulting. Some of the games Ross has consulted for include Sea of Thieves, Forza Motorsport, As Dusk Falls, and many more projects that have yet to be announced. Ross also has a YouTube channel and Twitch where he has created and edited over 150 videos with a focus on game accessibility, product and game reviews, and tutorials to educate both blind and sighted viewers about game accessibility.

@@ -4,7 +4,7 @@ name: Mikaela (Kelly) Carino
 pronouns: she/they
 location: Los Angeles, CA
 image: mikaela_carino.jpg
-alt: CHANGE THIS ALT TEXT
+alt: Close-up photo of Mikaela (Kelly) Carino. She is wearing blue-tinted sunglasses and sitting on a striped blanket.
 roles: Lead Programmer
 role_icons: [Programmer]
 summary: As a frontend software engineer skilled in JavaScript and TypeScript, I specialize in crafting user-friendly interfaces. I'm currently transitioning toward becoming a game programmer and technical artist, focusing on C++, Unreal Engine, Maya, and Substance Painter. My goal is to create immersive gameplay experiences by developing these new skills.

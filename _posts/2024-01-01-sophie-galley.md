@@ -4,7 +4,7 @@ name: Sophie Galley
 pronouns: she/her
 location: San Francisco Bay Area
 image: sophie_galley.jpg
-alt: CHANGE THIS ALT TEXT
+alt: Headshot of Sophie Galley in front of an open doorway.
 roles: Producer, Writer
 role_icons: [Producer, Writer]
 summary: My name is Sophie, and I'm a Scottish-born, California-raised game producer based in the San Francisco Bay Area. With the games that I create, I hope to spark excitement and curiosity in players by exploring relationships between interesting characters, crafting engaging storytelling, sprinkling in life lessons about self-care, and adding a pinch of the unexpected within the familiarity. You will find me handling the production and narrative in most of my projects where I will likely be organizing information, continuously learning by asking questions, and supporting my fellow game developers in any way I can!

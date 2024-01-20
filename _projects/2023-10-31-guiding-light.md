@@ -2,6 +2,7 @@
 layout: project
 title: Guiding Light
 logo: /assets/images/proj/gl/gl_logo.png
+alt: The outline of a lantern with a small figure with large oval eyes inside it. Large text reads "Guiding Light."
 summary: Narrative-driven adventure about death and the afterlife
 category: Top-down Adventure
 demo: https://candlesticklibrary.itch.io/guiding-light
@@ -33,7 +34,7 @@ team:
     roles: Producer, Narrative
   - member: Jacob Wheeler
     url: /jacob-wheeler
-    roles: Lead Level Designer, Accessibility Design
+    roles: Technical Level Designer
   - member: Ross Minor
     url: /ross-minor
     roles: Accessibility Lead, QA

@@ -4,7 +4,7 @@ name: Taylor McElroy
 pronouns: she/her
 location: Eugene, OR
 image: taylor_mcelroy.jpg
-alt: CHANGE THIS ALT TEXT
+alt: Headshot of Taylor McElroy. She is standing in front of a wooden fence surrounded by tall plants.
 roles: Lead Producer
 role_icons: [Producer]
 summary: Taylor McElroy is seeking an entry-level production role in the games industry. Her background is a mix of team coordination and project management in TTRPGs and higher education. She holds a B.A. in Interdisciplinary Studies.

@@ -4,7 +4,7 @@ name: Ashley Phipps
 pronouns: she/her
 location: United States
 image: ashley_phipps.jpg
-alt: CHANGE THIS ALT TEXT
+alt: Headshot of Ashley Phipps. She is wearing pink headphones with decorative cat ears on them and several plushies are in the background.
 roles: Producer, Lead Producer
 role_icons: [Producer]
 summary: Ashley is a producer and community manager for DOTs.  She is also a cozy (though occasionally chaotic) games streamer on Twitch and mother to an (also chaotic) toddler!
