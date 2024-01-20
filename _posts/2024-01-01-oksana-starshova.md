@@ -4,7 +4,7 @@ name: Oksana Starshova
 pronouns: she/her
 location: San Francisco, CA
 image: oksana_starshova.png
-alt: CHANGE THIS ALT TEXT
+alt: Stylized portrait of a person with shoulder-length hair and wire-rimmed glasses positioned between several plants.
 roles: Games User Researcher, QA Lead
 role_icons: [QA]
 summary: Oksana is an aspiring game developer, and a QA Engineer with two years of experiences in the banking sector. She is passionate about Live Service Games, Game Operations, QA and User Research.
