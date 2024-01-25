@@ -25,7 +25,7 @@ socials:
 ---
 
 ##### _Inn for the Lost (2023)_
-Links: [DOTs Page](/projects/inn-lost) &middot; [Itch.io](https://shleedelie.itch.io/inn-for-the-lost)
+Links: [DOTs Page](/projects/inn-lost) &middot; <a target="_blank" rel="noopener" href="https://shleedelie.itch.io/inn-for-the-lost">Itch.io</a>
 - Art team manager
 - 2D sprite work
 - 3D backgrounds
@@ -33,6 +33,7 @@ Links: [DOTs Page](/projects/inn-lost) &middot; [Itch.io](https://shleedelie.itc
 <hr class="secondary">
 
 ##### _Guiding Light (2023)_
+Links: [DOTs Page](/projects/guiding-light) &middot; <a target="_blank" rel="noopener" href="https://candlesticklibrary.itch.io/guiding-light">Itch.io</a>
 - Dialogue system development
 - 3D shaders
 - Unreal Blueprint optimization

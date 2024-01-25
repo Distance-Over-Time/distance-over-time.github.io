@@ -19,7 +19,7 @@ socials:
 ---
 
 ##### _Guiding Light (2023)_
-Links: [DOTs Page](/projects/guiding-light) &middot; [Itch.io](https://candlesticklibrary.itch.io/guiding-light)
+Links: [DOTs Page](/projects/guiding-light) &middot; <a target="_blank" rel="noopener" href="https://candlesticklibrary.itch.io/guiding-light">Itch.io</a>
 - Designed and implemented levels 1-4 from blockout to final launch layout, and aesthetic passes including elements of sound design, verticality, conveyance, and descriptive environmental triggers for screen-reader implementation
 - Collaborated with the sound design and programming teams to prototype an accessibility audio indicator system for obstacles, environmental hazards, collectables, and enemies for our blind-player audience
 - Prototyped a compass system with UI components to assist players in world navigation

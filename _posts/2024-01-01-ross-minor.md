@@ -30,7 +30,7 @@ socials:
     url: https://mastodon.social/@RossMinor
 ---
 ##### _Inn for the Lost (2023)_
-Links: [DOTs Page](/projects/inn-lost) &middot; [Itch.io](https://shleedelie.itch.io/inn-for-the-lost)
+Links: [DOTs Page](/projects/inn-lost) &middot; <a target="_blank" rel="noopener" href="https://shleedelie.itch.io/inn-for-the-lost">Itch.io</a>
 - Researched and collaborated with the team to integrate TTS throughout the game
 - Helped design and provide guidance for features such as in-game descriptions, font size, and color contrast
 - Worked with QA to conduct user tests to determine accessibility pain points for blind players
@@ -38,7 +38,7 @@ Links: [DOTs Page](/projects/inn-lost) &middot; [Itch.io](https://shleedelie.itc
 <hr class="secondary">
 
 ##### _Guiding Light (2023)_
-Links: [DOTs Page](/projects/guiding-light) &middot; [Itch.io](https://candlesticklibrary.itch.io/guiding-light)
+Links: [DOTs Page](/projects/guiding-light) &middot; <a target="_blank" rel="noopener" href="https://candlesticklibrary.itch.io/guiding-light">Itch.io</a>
 - Helped design a navigation system to allow blind players to explore the game independently
 - Advised on accessibility best practices surrounding navigation, sound design, and more
 - Created an audio glossary to help blind players learn the sounds of the game

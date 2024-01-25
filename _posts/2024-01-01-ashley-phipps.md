@@ -7,7 +7,7 @@ image: ashley_phipps.jpg
 alt: Headshot of Ashley Phipps. She is wearing pink headphones with decorative cat ears on them and several plushies are in the background.
 roles: Producer, Lead Producer
 role_icons: [Producer]
-summary: Ashley is a producer and community manager for DOTs.  She is also a cozy (though occasionally chaotic) games streamer on Twitch and mother to an (also chaotic) toddler!
+summary: Ashley is a producer and community manager for DOTS.  She is also a cozy (though occasionally chaotic) games streamer on Twitch and mother to an (also chaotic) toddler!
 projects: [Guiding Light, Inn for the Lost]
 portfolio: https://ashleyphipps.me/
 contact:
@@ -28,13 +28,13 @@ socials:
     url: https://www.twitch.tv/shleedelie
 ---
 ##### _Inn for the Lost (2023)_
-Links: [DOTs Page](/projects/inn-lost) &middot; [Itch.io](https://shleedelie.itch.io/inn-for-the-lost)
+Links: [DOTs Page](/projects/inn-lost) &middot; <a target="_blank" rel="noopener" href="https://shleedelie.itch.io/inn-for-the-lost">Itch.io</a>
 - Lead Producer
 
 <hr class="secondary">
 
 ##### _Guiding Light (2023)_
-Links: [DOTs Page](/projects/guiding-light) &middot; [Itch.io](https://candlesticklibrary.itch.io/guiding-light)
+Links: [DOTS Page](/projects/guiding-light) &middot; <a target="_blank" rel="noopener" href="https://candlesticklibrary.itch.io/guiding-light">Itch.io</a>
 - Producer
 - Narrative Editor
 - UI Design

@@ -55,7 +55,7 @@ layout: default
           {% assign platform = link.platform %}
           {% assign url = link.url %}
           {% assign icon = site.social_media_icons[platform] %}
-            <a href="{{ url }}" alt="{{ platform }}">
+            <a target="_blank" rel="noopener" href="{{ url }}" alt="{{ platform }}">
             <img src="{{ icon }}" class="social-icon" aria-label="link to {{ platform }}" alt="{{ platform }} logo"></a>
         {% endfor %}
       </div>
