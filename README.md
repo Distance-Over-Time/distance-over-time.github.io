@@ -11,7 +11,7 @@ Formed from the <a href="https://www.igdafoundation.org/virtualexchange">Interna
 
 ## Development Credits
 ### Contributors
-- [Ryan Davis](https://distance-over-time.github.io/ryan-davis): Web development, logo creation
+- [Ryan Davis](https://distance-over-time.github.io/ryan-davis): Web development, logo creation, additional drawings
 - [Sophie Galley](https://distance-over-time.github.io/sophie-galley): About page write up
 - [Tay McElroy](https://distance-over-time.github.io/taylor-mcelroy): Alt text descriptions for images
 - [Ross Minor](https://distance-over-time.github.io/ross-minor): Accessibility testing for screen readers
