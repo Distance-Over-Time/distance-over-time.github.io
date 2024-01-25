@@ -18,6 +18,7 @@ h5, h6 {
   text-shadow: 1px 1px 0px #0397D5,
                1px 2px 0px #0397D5
 }
+
 .main-font {
   font-family: 'Genos';
   color: black;
@@ -28,14 +29,15 @@ h5, h6 {
 }
 
 .profile-name {
-  font-size: 3rem;
+  font-size: 2rem;
   text-shadow: 1px 1px 0px #0397D5,
                1px 2px 0px #0397D5
 }
 
 .card-project-name {
-  font-size: 2rem;
+  font-size: 2rem !important;
   text-transform: uppercase;
+  padding-bottom: 0.5rem;
 }
 
 .profile-section-title {
@@ -72,4 +74,16 @@ h5, h6 {
   text-decoration-color:#0397D5;
 }
 
-
+@media only screen and (max-width: 600px) {
+  .page-title {
+    font-size: 205%;
+    color: #000000;
+    text-shadow: 0.5px 0.5px 0px #0397D5,
+                 0.5px 1.5px 0px #0397D5
+  }
+  
+  .card-project-name {
+    font-size: 1.5rem !important;
+    padding-bottom: 0rem;
+  }
+}

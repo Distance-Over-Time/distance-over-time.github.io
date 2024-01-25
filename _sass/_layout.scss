@@ -390,6 +390,12 @@ a.general:hover {
 }
 
 @media only screen and (max-width: 600px) {
+  html {
+    box-sizing: border-box;
+    margin:10px; 
+    padding:0;
+  }
+
   .game-logo {
     max-width: 300px;
   }
