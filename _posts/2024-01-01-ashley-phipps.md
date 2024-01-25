@@ -9,7 +9,7 @@ roles: Producer, Lead Producer
 role_icons: [Producer]
 summary: Ashley is a producer and community manager for DOTs.  She is also a cozy (though occasionally chaotic) games streamer on Twitch and mother to an (also chaotic) toddler!
 projects: [Guiding Light, Inn for the Lost]
-portfolio: under construction
+portfolio: https://ashleyphipps.me/
 contact:
   - type: Email
     direct: ashley.e.phipps@gmail.com
