@@ -19,11 +19,14 @@
 - [Ashley Phipps](https://distance-over-time.github.io/ashley-phipps): Organizing team member information
 
 ### Contact
-**For contacting DOTS in general:**
+For contacting DOTS in general:
+
 _distanceovertimeteam@gmail.com_
 
-**For contacting individual DOTS members:**
+For contacting individual DOTS members:
+
 Please find them on our [Members List](https://distance-over-time.github.io/members) and see their Contact Info on their page.
 
-**If you find any bugs on our site:**
+If you find any bugs on our site:
+
 Please contact our webmaster, [Ryan Davis](https://github.com/DataIsGone).
