@@ -21,7 +21,7 @@ socials:
 ---
 
 ##### _Guiding Light (2023)_
-Links: [DOTs Page](/projects/guiding-light) &middot; [Itch.io](https://candlesticklibrary.itch.io/guiding-light)
+Links: [DOTs Page](/projects/guiding-light) &middot; <a target="_blank" rel="noopener" href="https://candlesticklibrary.itch.io/guiding-light">Itch.io</a>
 - Lead Producer
 - Team meeting facilitation and note-taking
 - Utilized Miro for task-tracking and project deadlines

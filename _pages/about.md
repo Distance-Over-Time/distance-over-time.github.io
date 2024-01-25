@@ -4,7 +4,7 @@ title: About
 ---
 <h1 class="page-title">Who We Are</h1>
 
-Formed from the <a class="general" href="https://www.igdafoundation.org/virtualexchange">International Game Developers Association Foundation</a>’s (IGDA-F) Virtual Exchange in 2023, the ***Distance Over Time Studio (DOTS)*** consists of members of the program’s Velocity cohort, marginalized game developers trying to transition into the video game industry from a different field.
+Formed from the <a class="general" target="_blank" rel="noopener" href="https://www.igdafoundation.org/virtualexchange">International Game Developers Association Foundation</a>’s (IGDA-F) Virtual Exchange in 2023, the ***Distance Over Time Studio (DOTS)*** consists of members of the program’s Velocity cohort, marginalized game developers trying to transition into the video game industry from a different field.
 
 What started as mutual support for each other to reach our goals has transformed into a passion-fueled studio that aims to diversify gaming from those who create it to the stories those games tell. Our mission is to create accessible games that bring the representation we want to experience more of while we learn something new along the way. 
 

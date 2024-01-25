@@ -48,6 +48,6 @@ team:
 
 *Navigate the ominous realm of the dead in this blind-accessible, narrative-driven game about death and what comes after. Guided by their cheeky gatekeeper, newly-deceased Uri must track down their missing memories in 3 eerie levels of the afterlife.*
 
-***Guiding Light*** is a blind-accessible top-down, narrative-driven adventure game originally produced for [Themed Horror Game Jam #15 - Halloween Edition](https://itch.io/jam/themed-horror-game-jam-15).
+***Guiding Light*** is a blind-accessible top-down, narrative-driven adventure game originally produced for <a target="_blank" rel="noopener" href="https://itch.io/jam/themed-horror-game-jam-15">Themed Horror Game Jam #15 - Halloween Edition</a>.
 
-Patches are in development for a future submission to [The Rookies](https://www.therookies.co/).
+Patches are in development for a future submission to <a target="_blank" rel="noopener" href="https://www.therookies.co">The Rookies</a>.
