@@ -1,7 +1,7 @@
 # Distance Over Time Studios
 > ### _It's Not How Fast You Go, But How Far_
 <p align="center">
-<img src="https://github.com/Distance-Over-Time/distance-over-time.github.io/blob/main/assets/images/dalmatian2.png" alt="alt text" width="35%" height="35%">
+<img src="https://github.com/Distance-Over-Time/distance-over-time.github.io/blob/main/assets/images/dalmatian2.png" alt="A black and white Dalmatian standing up; it has a blue solid drop shadow" width="35%" height="35%">
 </p>
 </br>
 <p align="center">
