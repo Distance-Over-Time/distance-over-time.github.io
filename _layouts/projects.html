@@ -4,19 +4,23 @@ layout: default
 
 <h1 class="page-title">See Our Work</h1>
 <hr>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-diamond-fill" viewBox="0 0 16 16" alt="important notice">
+  <path d="M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098zM8 4c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995A.905.905 0 0 1 8 4m.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+</svg>
+&nbsp;<em><strong>Please click on the project title to access</strong></em>
+<br><br>
 <div class="grid">
   
+
   {% for project in site.projects reversed %}
-    
     <article role="article" class="card">
-	    <a class="card-text" href="{{ site.baseurl }}{{ project.url }}">
       <div class="meta">
-        <h2 class="main-font card-project-name">{{ project.title }}</h2>
+        <a class="card-text" href="{{ site.baseurl }}{{ project.url }}">
+          <h2 class="main-font card-project-name">{{ project.title }}</h2>
+        </a>
         <p class="secondary-font">{{ project.summary }}</p>
         <time class="date secondary-font" datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date: "%Y" }} &middot; {{ project.category }}</time>
       </div>
-      </a>
     </article>
     
     
