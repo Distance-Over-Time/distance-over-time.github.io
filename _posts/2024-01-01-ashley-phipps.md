@@ -18,8 +18,6 @@ socials:
     url: https://www.linkedin.com/in/ashley-phipps2/
   - platform: Bluesky
     url: https://bsky.app/profile/shleedelie.bsky.social
-  - platform: Twitter
-    url: https://twitter.com/shleedelie
   - platform: Instagram
     url: https://www.instagram.com/shleedelie/
   - platform: Itch.io

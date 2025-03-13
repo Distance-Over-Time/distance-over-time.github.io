@@ -5,7 +5,7 @@ pronouns: she/her
 location: San Diego, CA
 image: ryan_davis.jpeg
 alt: Close-up photo of Ryan Davis. She is sitting in a chair with a dog in her lap.
-roles: Art Lead, Technical Artist
+roles: Technical Artist, Art Lead, Programmer Lead
 role_icons: [Programmer, Artist]
 summary: Ryan Davis is seeking work as a technical artist in the games industry after contract work in Big Tech. She holds a BA in Art and BS in Computer Science.
 projects: [Guiding Light, Inn for the Lost]

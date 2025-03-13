@@ -18,8 +18,10 @@ layout: default
               <div class="col">
                 <h3 class="main-font card-name">{{ post.name }}</h3>
                 <h5 class="secondary-font">{{ post.roles }}</h5>
-                <h6 class="secondary-font" style="opacity:0.6"><strong>Pronouns</strong>: {{ post.pronouns }}</h6>
-              </div>
+                {% if post.pronouns %}
+                  <h6 class="secondary-font" style="opacity:0.6"><strong>Pronouns</strong>: {{ post.pronouns }}</h6>
+                {% endif %}
+                </div>
               <div class="col" aria-label="roles">
                 {% for role in post.role_icons reversed %}
                   {% assign icon = site.role_icons[role] %}

@@ -79,9 +79,13 @@ layout: default
       <ul class="bio">
         {% for contact in page.contact %}
           {% if contact.type == 'Email' %}
-            <li><strong>{{ contact.type }}</strong>: <a href="mailto:{{ contact.direct }}">{{ contact.direct }}</a></li>
+            {% if contact.direct %}
+              <li><strong>{{ contact.type }}</strong>: <a href="mailto:{{ contact.direct }}">{{ contact.direct }}</a></li>
+            {% else %}
+              <li><strong>{{ contact.type }}</strong>: see <a href="{{ page.portfolio }}">portfolio</a> and <a href="{{ page.socials[0].url}}">LinkedIn</a></li>
+            {% endif %}
           {% else %}
-            <li><strong>{{ contact.type }}</strong>: <a href="">{{ contact.direct }}</a></li>
+            <li><strong>{{ contact.type }}</strong>: see <a href="{{ page.portfolio }}">portfolio</a> and <a href="{{ page.socials[0].url}}">LinkedIn</a></li>
           {% endif %}
         {% endfor %}
       </ul>

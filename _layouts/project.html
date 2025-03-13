@@ -4,7 +4,9 @@ layout: default
 
 <article class="post" role="article">
 	<div class="meta text-center">
-    <img src="{{ page.logo }}" class="game-logo" alt="{{ page.alt }} logo">
+    {% if page.logo %}
+      <img src="{{ page.logo }}" class="game-logo" alt="{{ page.alt }} logo">
+    {% endif %}
   </div>
   <br>
   <div class="meta">
@@ -16,10 +18,14 @@ layout: default
     </h4>
     <hr>
     <section class="container base-text">
-      <a href="{{ page.demo }}">
-        <h5 class="demo-link"><i class="bi bi-joystick" style="padding-right:10px"></i>Play <em>{{ page.title }}</em> on Itch.io</h5>
-      </a>
-      <em>Platforms currently available: {{ page.platforms }}</em>
+      {% if page.demo == 'in progress' %}
+        <em>Project in progress.</em>
+      {% else %}
+        <a href="{{ page.demo }}">
+          <h5 class="demo-link"><i class="bi bi-joystick" style="padding-right:10px"></i>Play <em>{{ page.title }}</em> on Itch.io</h5>
+        </a>
+        <em>Platforms currently available: {{ page.platforms }}</em>
+      {%endif%}
     </section>
     
     <br><br>
@@ -50,14 +56,18 @@ layout: default
     <hr>
     <section class="container base-text">
       <div class="col">
-        <h5 class="profile-subsection-title"><em>Links</em></h5>
+        {% if page.links %}
+          <h5 class="profile-subsection-title"><em>Links</em></h5>
           {% for link in page.links %}
-          {% assign platform = link.platform %}
-          {% assign url = link.url %}
-          {% assign icon = site.social_media_icons[platform] %}
-            <a target="_blank" rel="noopener" href="{{ url }}" alt="{{ platform }}">
-            <img src="{{ icon }}" class="social-icon" aria-label="link to {{ platform }}" alt="{{ platform }} logo"></a>
-        {% endfor %}
+            {% assign platform = link.platform %}
+            {% assign url = link.url %}
+            {% assign icon = site.social_media_icons[platform] %}
+              <a target="_blank" rel="noopener" href="{{ url }}" alt="{{ platform }}">
+              <img src="{{ icon }}" class="social-icon" aria-label="link to {{ platform }}" alt="{{ platform }} logo"></a>
+          {% endfor %}
+        {% else %}
+          <h5 class="profile-subsection-title"><em>Project in Progress</em></h5>
+        {% endif %}
       </div>
     </section>
     <hr class="secondary">
